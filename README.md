@@ -16,54 +16,58 @@ La solución está organizada en los siguientes proyectos:
 
 
 ## 📁 Estructura de Carpetas
+# 🏫 SchoolManagement - Estructura del Proyecto
+
+```text
 SchoolManagement/
-├── School.Core/
-│   ├── Entities/
-│   │   ├── Student.cs
-│   │   ├── Subject.cs
-│   │   └── Enrollment.cs
-│   └── Interfaces/
-│       ├── IStudentService.cs
-│       ├── ISubjectService.cs
-│       └── IEnrollmentService.cs
+├── 📂 School.Core/                   # Capa de dominio
+│   ├── 📂 Entities/
+│   │   ├── 🟢 Student.cs
+│   │   ├── 🟢 Subject.cs
+│   │   └── 🟢 Enrollment.cs
+│   └── 📂 Interfaces/
+│       ├── 🔷 IStudentService.cs
+│       ├── 🔷 ISubjectService.cs
+│       └── 🔷 IEnrollmentService.cs
 │
-├── School.Application/
-│   └── DTOs/
-│       └── EnrollmentDto.cs
-│       └── StudentDto.cs
-│       └── SubjectDto.cs
-│   └── Mapping/
-│       └── MappingProfile.cs
+├── 📂 School.Application/            # Capa de aplicación
+│   ├── 📂 DTOs/
+│   │   ├── 📄 EnrollmentDto.cs
+│   │   ├── 📄 StudentDto.cs
+│   │   └── 📄 SubjectDto.cs
+│   └── 📂 Mapping/
+│       └── 📄 MappingProfile.cs
 │
-├── School.Infrastructure/
-│   ├── Data/
-│   │   ├── SchoolDbContext.cs
-│   ├── Services/
-│   │   ├── StudentService.cs
-│   │   ├── SubjectService.cs
-│   │   └── EnrollmentService.cs
-│   └── DependencyInjection.cs
+├── 📂 School.Infrastructure/         # Infraestructura
+│   ├── 📂 Data/
+│   │   └── 📄 SchoolDbContext.cs
+│   ├── 📂 Services/
+│   │   ├── 🛠️ StudentService.cs
+│   │   ├── 🛠️ SubjectService.cs
+│   │   └── 🛠️ EnrollmentService.cs
+│   └── 📄 DependencyInjection.cs
 │
-├── School.Tests /
-│   ├── Controllers/
-│   │   ├── StudentControllerTests.cs
-│   ├── Services/
-│   │   ├── StudentServiceTests.cs
-│	BasePruebas.cs
+├── 📂 School.Tests/                  # Pruebas unitarias
+│   ├── 📂 Controllers/
+│   │   └── 🧪 StudentControllerTests.cs
+│   ├── 📂 Services/
+│   │   └── 🧪 StudentServiceTests.cs
+│   └── 📄 BasePruebas.cs
 │
-├── School.Web/
-│   ├── Pages/
-│   │   ├── Students/
-│   │   │   ├── Index.cshtml + Index.cshtml.cs
-│   │   │   ├── Create.cshtml + Create.cshtml.cs
-│   │   │   ├── Edit.cshtml + Edit.cshtml.cs
-│   │   │   └── Delete.cshtml + Delete.cshtml.cs
-│   │   ├── Subjects/
-│   │   └── Enrollments/
-│   ├── wwwroot/
-│   └── Program.cs
+├── 📂 School.Web/                    # Frontend (Razor Pages)
+│   ├── 📂 Pages/
+│   │   ├── 📂 Students/
+│   │   │   ├── 📄 Index.cshtml + Index.cshtml.cs
+│   │   │   ├── 📄 Create.cshtml + Create.cshtml.cs
+│   │   │   ├── 📄 Edit.cshtml + Edit.cshtml.cs
+│   │   │   └── 📄 Delete.cshtml + Delete.cshtml.cs
+│   │   ├── 📂 Subjects/
+│   │   └── 📂 Enrollments/
+│   ├── 📂 wwwroot/                   # Archivos estáticos
+│   └── 📄 Program.cs                 # Configuración inicial
 │
-└── SchoolManagement.sln
+└── 📄 SchoolManagement.sln           # Solución principal
+```
 
 ## 🚀 Requisitos Previos
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
