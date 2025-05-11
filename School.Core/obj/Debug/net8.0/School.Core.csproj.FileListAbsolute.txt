@@ -1,0 +1,15 @@
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\bin\Debug\net8.0\School.Core.deps.json
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\bin\Debug\net8.0\School.Core.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\bin\Debug\net8.0\School.Core.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\bin\Debug\net8.0\School.Shared.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\bin\Debug\net8.0\School.Shared.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.Core.csproj.AssemblyReference.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.Core.AssemblyInfoInputs.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.Core.AssemblyInfo.cs
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.Core.csproj.CoreCompileInputs.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.C.B0664C9C.Up2Date
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.Core.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\refint\School.Core.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\School.Core.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Core\obj\Debug\net8.0\ref\School.Core.dll

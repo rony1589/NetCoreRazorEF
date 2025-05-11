@@ -1,0 +1,50 @@
+﻿@page
+@model School.Web.Pages.Enrollments.CreateModel
+
+@{
+    ViewData["Title"] = "Registrar Materia a Estudiante";
+}
+
+@if (TempData["OperationResult"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["OperationResult"]
+    </div>
+}
+
+<h1>Registrar</h1>
+
+<h4>Materia a Estudiante</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Enrollment.StudentId" class="control-label">Estudiantes</label>
+                <select asp-for="Enrollment.StudentId" class ="form-control" asp-items="Model.Students">
+                    <option value="">Seleccione un estudiante</option>
+                </select>
+                <span asp-validation-for="Enrollment.StudentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Enrollment.SubjectId" class="control-label">Materias</label>
+                <select asp-for="Enrollment.SubjectId" class="form-control" asp-items="Model.Subjects">
+                    <option value="">Seleccione una materia</option>
+                </select>
+                <span asp-validation-for="Enrollment.SubjectId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

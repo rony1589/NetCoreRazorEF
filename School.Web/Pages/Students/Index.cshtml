@@ -1,0 +1,76 @@
+﻿@page
+@model School.Web.Pages.Students.IndexModel
+
+@{
+    ViewData["Title"] = "Lista de Estudiantes";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Crear Estudiante</a>
+</p>
+<input type="text" id="searchInput" placeholder="Buscar estudiantes..." class="form-control mb-3" />
+<table class="table" id="studentsTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Students[0].FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Students[0].Documento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Students[0].Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Students)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Documento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Detalle del Estudiante</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("searchInput");
+        const table = document.getElementById("studentsTable");
+        const rows = table.getElementsByTagName("tr");
+
+        searchInput.addEventListener("input", function () {
+            const filter = searchInput.value.toLowerCase();
+
+            for (let i = 1; i < rows.length; i++) { // Comienza desde 1 para omitir el encabezado
+                const cells = rows[i].getElementsByTagName("td");
+                let match = false;
+
+                for (let j = 0; j < cells.length; j++) {
+                    const cellText = cells[j].textContent.toLowerCase();
+                    if (cellText.includes(filter)) {
+                        match = true;
+                        break;
+                    }
+                }
+
+                rows[i].style.display = match ? "" : "none";
+            }
+        });
+    });
+</script>

@@ -1,0 +1,58 @@
+﻿@page
+@model School.Web.Pages.Enrollments.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Registro de Materia</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollments[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollments[0].Student.Documento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollments[0].Student.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollments[0].Subject.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollments[0].Subject.Credits)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Enrollments) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.Documento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject.Credits)
+            </td>
+            <td>
+                <a asp-page="./Delete" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

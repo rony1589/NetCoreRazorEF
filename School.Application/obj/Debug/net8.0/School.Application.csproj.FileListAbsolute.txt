@@ -1,0 +1,17 @@
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\bin\Debug\net8.0\School.Application.deps.json
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\bin\Debug\net8.0\School.Application.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\bin\Debug\net8.0\School.Application.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\bin\Debug\net8.0\School.Core.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\bin\Debug\net8.0\School.Shared.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\bin\Debug\net8.0\School.Core.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\bin\Debug\net8.0\School.Shared.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.Application.csproj.AssemblyReference.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfoInputs.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfo.cs
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.Application.csproj.CoreCompileInputs.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.A.0288516A.Up2Date
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.Application.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\refint\School.Application.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\School.Application.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Application\obj\Debug\net8.0\ref\School.Application.dll

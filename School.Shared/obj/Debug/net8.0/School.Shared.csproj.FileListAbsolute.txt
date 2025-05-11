@@ -1,0 +1,11 @@
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\bin\Debug\net8.0\School.Shared.deps.json
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\bin\Debug\net8.0\School.Shared.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\bin\Debug\net8.0\School.Shared.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\School.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\School.Shared.AssemblyInfoInputs.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\School.Shared.AssemblyInfo.cs
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\School.Shared.csproj.CoreCompileInputs.cache
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\School.Shared.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\refint\School.Shared.dll
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\School.Shared.pdb
+C:\Dir\Ronal\Desarrollos\SchoolManagement\School.Shared\obj\Debug\net8.0\ref\School.Shared.dll
